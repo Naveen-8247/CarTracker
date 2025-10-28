@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# 🚗 Car Tracker App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple **React + React Leaflet** based Vehicle Tracking Application that displays a car moving on a live map with popup details when clicked.  
+This project demonstrates how to use maps, markers, popups, and basic animations with clean UI for beginners.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌍 Features
 
-### `npm start`
+- 📍 Interactive Map using **React Leaflet**
+- 🚘 Real-time Vehicle Movement Animation
+- 🗺️ Fully Responsive Map (100% width and height)
+- 💬 Popup on Vehicle Click showing:
+  - Vehicle Name  
+  - Status  
+  - Speed  
+  - Last Updated Time
+- ⚙️ Beginner-friendly clean React code  
+- 🎨 Simple UI with **React Icons** integration  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend:** React, React Leaflet, React Icons  
+- **Map Provider:** OpenStreetMap  
+- **Animation:** JavaScript Intervals  
+- **Styling:** CSS (fully responsive layout)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📁 Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+src/
+├── components/
+│ ├── VehicleMap.jsx
+│ ├── Controls.jsx
+│ ├── Utils.js
+│ └── VehicleControl.jsx
+├── App.js
+├── index.js
+└── App.css
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+yaml
+Copy code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 How to Run
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone the repository
+git clone https://github.com/Naveen-8247/CarTracker.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Move into the project folder
+cd CarTracker
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Install dependencies
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Run the development server
+npm start
+Then open your browser and go to:
 
-## Learn More
+arduino
+Copy code
+http://localhost:3000
+📸 UI Preview
+Fullscreen responsive map layout
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Vehicle marker with animated movement
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Popup with speed, distance, and battery stats
 
-### Code Splitting
+Buttons for alerts, lock, and settings
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🤝 Contributing
+Contributions are welcome!
+Feel free to fork this repo and submit pull requests for any improvements or new features.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🧑‍💻 Author
+Naveen Yadav
+📧 dyavarnaveen8247@gmail.com
+🌐 GitHub Profile
